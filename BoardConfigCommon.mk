@@ -21,6 +21,7 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/msm8226-common/include
 
 # Architecture
 TARGET_CPU_VARIANT := krait
+TARGET_CPU_MEMCPY_BASE_OPT_DISABLE := true
 
 # Audio
 AUDIO_FEATURE_DISABLED_ANC_HEADSET := true
